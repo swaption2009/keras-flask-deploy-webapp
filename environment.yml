@@ -1,0 +1,15 @@
+name: tf14
+channels:
+  - defaults
+dependencies:
+  - python
+  - Werkzeug
+  - Flask
+  - numpy
+  - Keras
+  - gevent
+  - pillow
+  - h5py
+  - pip
+  - pip:
+    - tensorflow==1.14.0
